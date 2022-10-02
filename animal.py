@@ -1,10 +1,10 @@
 import sys
 
 def default():
-    print('hello')
+    print('Hello')
 
 def cat():
-    print('meow')
+    print('Meow')
 
 def main():
     if sys.argv[1] == 'cat':
@@ -14,7 +14,7 @@ def main():
     else:
     	default()
 def dog():
-    print('woew')
+    print('Wow')
 
 
 if __name__ == '__main__':
